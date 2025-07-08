@@ -1,0 +1,104 @@
+/* --- Estilo general --- */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffffff;
+}
+
+/* --- Barra de navegación --- */
+.nav-bar {
+    background: #3b71b0; /* azul medianamente claro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-center ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    gap: 30px;
+}
+
+.nav-center a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+.icono {
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.banner {
+    text-align: center;
+    background: #ffffff;
+    color: #0660bb;
+    padding: 25px 0;
+}
+
+.promo-img-banner img {
+    width: 55%;
+    height: auto;
+    display: block;
+}
+
+/* --- Tarjetas de categorías --- */
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+    background: #f0f0f0;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 180px;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 5px gray;
+}
+
+.card p {
+    font-weight: bold;
+    margin-top: 10px;
+}
